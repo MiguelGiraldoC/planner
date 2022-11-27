@@ -1,0 +1,35 @@
+.login-container h1,
+h2,
+p {
+	font-weight: 400;
+}
+
+.login-container h1 {
+	line-height: 75px;
+	font-size: 60px;
+	margin-bottom: 18px;
+}
+.login-container p {
+	width: 301px;
+	font-size: 16px;
+	margin-bottom: 127px;
+	word-break: break-all;
+}
+.login-container h2 {
+	font-size: 30px;
+	margin-bottom: 32px;
+}
+.login-form {
+	display: flex;
+	flex-direction: column;
+}
+
+.login-form div::input:last-of-type {
+	margin-bottom: 500px;
+}
+
+.login-link {
+	margin-top: 1em;
+	text-align: center;
+	color: #e9b425;
+}

@@ -1,0 +1,21 @@
+.input {
+	border: 1px solid #fece00;
+	border-radius: 5px;
+	margin-right: 5px;
+	height: 45px;
+	color: rgba(0, 0, 0, 0.7);
+	padding: 5px;
+}
+
+.input:focus,
+.input:active {
+	outline: 1px solid #fece00;
+}
+
+.input-note {
+	width: 400px;
+}
+
+input[type='time']::-webkit-calendar-picker-indicator {
+	background: none;
+}

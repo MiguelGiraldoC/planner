@@ -1,0 +1,25 @@
+.selectDropDown {
+	display: flex;
+	flex-direction: column;
+}
+.selectDropDown-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 16px;
+}
+.selectDropDown-box {
+	position: relative;
+	color: #ffffff;
+	background: #26292c;
+	border: 1px solid #ffffff;
+	border-radius: 50px;
+	width: 379px;
+	height: 60px;
+	padding: 20px;
+}
+
+.selectDropDown-label {
+	margin-right: 1em;
+}

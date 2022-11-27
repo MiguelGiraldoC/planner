@@ -1,0 +1,25 @@
+.dashboardWeather {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.dashboardWeather-location {
+	font-size: 14px;
+}
+
+.dashboardWeather-weatherContainer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: row;
+}
+
+.dashboardWeather-weatherContainer-temp {
+	font-size: 48px;
+	font-weight: 700;
+}
+.dashboardWeather-weatherContainer-icon {
+	width: 80px;
+}

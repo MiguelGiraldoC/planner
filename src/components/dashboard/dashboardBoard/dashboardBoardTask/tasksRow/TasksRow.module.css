@@ -1,0 +1,53 @@
+.tasksRow {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 0.875em;
+}
+
+.tasksRow-time {
+	background: red;
+	min-width: 85px;
+	min-height: 85px;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.tasksRow-time p {
+	font-weight: 600;
+	font-size: 17px;
+}
+
+.tasksRow-tasks {
+	display: flex;
+	flex-direction: row;
+	margin-left: 20px;
+}
+.monday {
+	background: #ff0024;
+}
+.tuesday {
+	background: #ff8000;
+}
+.wednesday {
+	background: #ffce00;
+}
+
+.thursday {
+	background: rgba(255, 0, 36, 0.7);
+}
+
+.friday {
+	background: rgba(255, 128, 0, 0.7);
+}
+
+.saturday {
+	background: rgba(255, 206, 0, 0.7);
+}
+
+.sunday {
+	background: rgba(255, 0, 36, 0.5);
+	margin: 0;
+}

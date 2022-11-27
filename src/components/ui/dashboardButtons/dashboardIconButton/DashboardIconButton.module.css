@@ -1,0 +1,36 @@
+.button {
+	width: 100%;
+	padding: 0.5em;
+	border: none;
+	border-radius: 5px;
+}
+.logout {
+	background: black;
+	color: #fff;
+	margin-top: 1em;
+	cursor: pointer;
+	transition: all ease-in-out 150ms;
+}
+.logout:hover {
+	transform: scale(1.08);
+}
+.actionAdd {
+	background: #00ba88;
+	color: #fff;
+	margin-right: 1em;
+	cursor: pointer;
+	transition: all ease-in-out 150ms;
+}
+.actionAdd:hover {
+	transform: scale(1.08);
+}
+
+.actionDelete {
+	background: #ff3d1f;
+	color: #fff;
+	cursor: pointer;
+	transition: all ease-in-out 150ms;
+}
+.actionDelete:hover {
+	transform: scale(1.08);
+}

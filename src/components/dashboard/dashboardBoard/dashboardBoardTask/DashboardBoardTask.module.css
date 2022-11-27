@@ -1,0 +1,5 @@
+.boardTask {
+	height: 1000px;
+	margin-top: 2em;
+	overflow: scroll;
+}

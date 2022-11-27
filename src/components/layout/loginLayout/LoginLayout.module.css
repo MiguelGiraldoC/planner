@@ -1,0 +1,34 @@
+.login {
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(180deg, #33383d 0%, #1c1d20 100%);
+	color: #e0e0e0;
+	display: flex;
+}
+.login-container {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.login-image {
+	position: relative;
+}
+.login-image {
+	display: flex;
+	position: relative;
+	width: 50%;
+}
+.login-image-bg {
+	min-width: 100%;
+	height: auto;
+	object-fit: cover;
+}
+.login-image-logo {
+	position: absolute;
+	top: 36px;
+	left: 50%;
+	transform: translate(-50%);
+}

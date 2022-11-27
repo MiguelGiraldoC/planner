@@ -1,0 +1,16 @@
+.dashboardClock {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-right: 5em;
+}
+.dashboardClock-time {
+	font-size: 40px;
+	font-weight: 700;
+	color: #3b3e45;
+}
+.dashboardClock-date {
+	font-size: 20px;
+	color: #3b3e45;
+}

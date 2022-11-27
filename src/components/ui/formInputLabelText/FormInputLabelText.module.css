@@ -1,0 +1,56 @@
+.input {
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	margin-bottom: 16px;
+}
+.input-label {
+	margin-right: 1em;
+}
+.input-container {
+	display: flex;
+	flex-direction: column;
+}
+.input-container p {
+	font-size: 16px;
+	margin: 5px 0 0 20px;
+	margin-left: 20px;
+	color: #e9b425;
+}
+.input-content {
+	background-color: transparent;
+	border: none;
+	color: #ffffff;
+	padding: 20px;
+	background: #26292c;
+	border: 1px solid #ffffff;
+	border-radius: 50px;
+	width: 379px;
+	height: 60px;
+}
+
+.input-content:focus {
+	outline: none;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill.active {
+	-webkit-text-fill-color: #ffffff;
+	-webkit-box-shadow: 0 0 0px 1000px #26292c inset;
+}
+input::-webkit-calendar-picker-indicator {
+	filter: invert(1);
+}
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+	-webkit-text-fill-color: #ffffff;
+
+	transition: background-color 5000s ease-in-out 0s;
+}

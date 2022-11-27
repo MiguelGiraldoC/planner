@@ -1,0 +1,48 @@
+.tab {
+	width: 240px;
+	height: 33px;
+	border-radius: 9px 9px 0px 0px;
+	margin-right: 2px;
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+}
+.tab p {
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 20px;
+	margin-left: 8px;
+}
+.selected {
+	color: aliceblue;
+}
+.monday {
+	background: #ff0024;
+}
+.tuesday {
+	background: #ff8000;
+}
+.wednesday {
+	background: #ffce00;
+}
+
+.thursday {
+	background: rgba(255, 0, 36, 0.7);
+}
+
+.friday {
+	background: rgba(255, 128, 0, 0.7);
+}
+
+.saturday {
+	background: rgba(255, 206, 0, 0.7);
+}
+
+.sunday {
+	background: rgba(255, 0, 36, 0.5);
+	margin: 0;
+}
+
+.tab:focus {
+	border: 2px solid black;
+}

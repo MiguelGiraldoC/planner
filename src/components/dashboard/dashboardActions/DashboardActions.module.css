@@ -1,0 +1,14 @@
+.actions {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 2.125em;
+	padding: 0 1.4em;
+}
+.actions-inputs {
+	display: flex;
+}
+.actions-buttons {
+	display: flex;
+	flex-direction: row;
+	width: 20%;
+}
